@@ -1,0 +1,50 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: solid #eee 1px;
+  width: 60%;
+  /* padding: 20px; */
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+}
+
+.profile-item {
+  padding: 2px;
+}
+
+.image {
+  height: 400px;
+  padding: none;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.profile-text {
+  padding: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact {
+  color: #eee;
+}
+.edit-button {
+  background-color: #505355;
+  color: #eee;
+  border: none;
+  padding: 14px;
+  border-radius: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.edit-button:hover {
+  background-color: #5becd8;
+}
