@@ -8,7 +8,9 @@ import { ProfileService } from '../profile.service';
   styleUrls: ['./profile.component.css'],
 })
 export class ProfileComponent implements OnInit {
+  //below place holder that will handle infomation when needed
   userProfile: UserProfile = null;
+  //below is the dependance injection of
   constructor(private service: ProfileService) {}
 
   ngOnInit(): void {

@@ -22,13 +22,15 @@
       [ngModel]="userProfile.contact"
     />
     <label class="form-label" for="bio">Bio</label>
-    <input
+    <textarea
       class="form-input"
       type="text"
       name="bio"
       id="bio"
+      cols="30"
+      rows="10"
       [ngModel]="userProfile.bio"
-    />
+    ></textarea>
     <button class="update-button">Update</button>
   </form>
 </div>

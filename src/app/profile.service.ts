@@ -13,11 +13,12 @@ export class ProfileService {
 
   constructor() {}
 
-  // will return an object
+  // will return an object of userProfile
   getUserProfile = () => {
     return this.userProfile;
   };
 
+  //below lets me access userProfile information line 8-11 anywere else in code
   setUserProfile = (newUserProfile: UserProfile): void => {
     this.userProfile = newUserProfile;
   };
